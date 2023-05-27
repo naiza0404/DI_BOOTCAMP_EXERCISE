@@ -1,0 +1,52 @@
+
+  
+  .navbar {
+    background-color: #f7f8fa;
+    color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  
+  .navbar-left {
+    font-weight: bold;
+  }
+  
+  .navbar-right .btn {
+    background-color: blue;
+    color: #f5f7f9;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .container {
+    text-align: center;
+    position: center;
+    max-height: fit-content;
+   
+  }
+  
+  .background-image {
+    background-image: url('https://assets.hongkiat.com/uploads/wood-textures/simple-wood-texture.jpg');
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+
+  }
+
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
